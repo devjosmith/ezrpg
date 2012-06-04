@@ -13,7 +13,7 @@ if (!defined('IN_EZRPG'))
   - <DbException>
  */
 
-class mysql {
+class mysql_adapter {
     /*
       Integer: $query_count
       Keeps track of number of queries made in this database connection.
